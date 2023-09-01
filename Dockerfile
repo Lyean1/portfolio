@@ -1,13 +1,15 @@
-FROM node:lts-alpine
+# syntax=docker/dockerfile:1
+
+FROM node:18-alpine
+
+ENV NODE_ENV=production
 
 WORKDIR /app
 
-COPY package.json .
+COPY ["package.json", "package-lock.json*", "./"]
 
-RUN npm
+RUN npm install --production
 
 COPY . .
 
-EXPOSE 5173
-
-CMD ["npm", "dev"]
+CMD ["npm", "run", "dev"]
