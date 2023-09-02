@@ -6,4 +6,4 @@ const Home: React.FC = () => {
     )
 }
 
-export default
+export default Home
