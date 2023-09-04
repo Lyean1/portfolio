@@ -1,1 +1,3 @@
-const Navbar: React.FC
+const Navbar: React.FC = () => {
+    
+}
