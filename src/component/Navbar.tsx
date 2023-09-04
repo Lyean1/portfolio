@@ -6,4 +6,4 @@ const Navbar: React.FC = () => {
     )
 }
 
-export
+export default
