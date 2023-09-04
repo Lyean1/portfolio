@@ -5,3 +5,5 @@ const Navbar: React.FC = () => {
         </div>
     )
 }
+
+export
