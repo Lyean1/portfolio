@@ -1,1 +1,1 @@
-const Navbar
+const Navbar: React.FC
