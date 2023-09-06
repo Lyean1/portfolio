@@ -1,1 +1,3 @@
-const Project: React.FC
+const Project: React.FC = () => {
+    
+}
