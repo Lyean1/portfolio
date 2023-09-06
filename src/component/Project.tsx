@@ -6,4 +6,4 @@ const Project: React.FC = () => {
     )
 }
 
-export
+export default
