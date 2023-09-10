@@ -6,4 +6,4 @@ const Services: React.FC = () => {
     )
 }
 
-export
+export default
