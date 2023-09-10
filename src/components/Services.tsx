@@ -1,1 +1,1 @@
-const Services
+const Services: React.FC 
