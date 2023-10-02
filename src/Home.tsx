@@ -1,7 +1,9 @@
 const Home: React.FC = () => {
     return (
-        <div>
-            
+        <div className="home">
+
         </div>
     )
 }
+
+export default Home
