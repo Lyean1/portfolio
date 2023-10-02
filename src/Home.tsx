@@ -1,1 +1,1 @@
-const 
+const Home: React.FC
