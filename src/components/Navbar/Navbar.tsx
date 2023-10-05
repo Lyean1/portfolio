@@ -20,7 +20,7 @@ const Navbar: React.FC<NavbarProps> = ({ title }) => {
       <ul className={`navbar__links ${collapsed ? '' : 'collapsed'}`}>
         <li className="navbar__link">Home</li>
         <li className="navbar__link">About</li>
-        <li className="navbar__link">Services</li>
+        <li className="navbar__link">Projects</li>
         <li className="navbar__link">Contact</li>
       </ul>
     </nav>
