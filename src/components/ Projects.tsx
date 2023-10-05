@@ -1,7 +1,9 @@
 const Projects: React.FC = () => {
     return (
-        <div>
-            
+        <div className="projects">
+
         </div>
     )
 }
+
+export default Projects
