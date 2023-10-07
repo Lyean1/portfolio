@@ -8,3 +8,6 @@ const Home: React.FC = () => {
         setName(event.target.value);
       };
     
+      return (
+        <div>
+          <h1>Welcome to Home, {name}!</h1>
