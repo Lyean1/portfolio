@@ -1,9 +1,15 @@
-const About: React.FC = () => {
-    return (
-        <div className="about">
 
-        </div>
-    )
+interface Props {
+  intro: string;
 }
 
-export default About
+const MyPhotoWithIntro: React.FC<Props> = ({ intro }) => {
+  return (
+    <div>
+      <img src="/my-photo.png" alt="My photo" />
+      <p>{intro}</p>
+    </div>
+  );
+};
+
+export default MyPhotoWithIntro;

@@ -1,9 +1,2 @@
-const Home: React.FC = () => {
-    return (
-        <div className="home">
-
-        </div>
-    )
-}
-
-export default Home
+import React, { useState } from "react";
+import myPhoto from "./my-photo.jpg";
