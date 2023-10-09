@@ -24,7 +24,7 @@ const Hero: React.FC<{ welcome: string; brief: string }> = ({
           <SectionTitle main>{welcome}</SectionTitle>
           <SectionText>{brief}</SectionText>
           <ScrollTo itemName="projects">
-            <ButtonBack>Leia Mais</ButtonBack>
+            <ButtonBack>Read More</ButtonBack>
           </ScrollTo>
         </LeftSection>
       </Section>

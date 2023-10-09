@@ -70,13 +70,13 @@ const Card: React.FC<CardProps> = ({
               {source ? (
                 <S.RepoLink href={source} target="_blank">
                   <AiFillGithub size="3rem" />
-                  <span>Visualize o código</span>
+                  <span>Visualize the code</span>
                 </S.RepoLink>
               ) : null}
               {visit ? (
                 <S.RepoLink href={visit} target="_blank">
                   <AiOutlineGlobal size="3rem" />
-                  <span>Visite o projeto</span>
+                  <span>Visit the project</span>
                 </S.RepoLink>
               ) : null}
             </S.LinksDiv>

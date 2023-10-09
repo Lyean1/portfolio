@@ -7,7 +7,7 @@ import type { Project } from '../../services/projectsServices';
 const Projects: React.FC<{ projects: Project[] }> = ({ projects }) => {
   return (
     <Section id="projects">
-      <SectionTitle main>Projetos</SectionTitle>
+      <SectionTitle main>Projects</SectionTitle>
       <CardWrapper>
         {projects.map(proj => (
           <Card {...proj} key={proj.id} />
