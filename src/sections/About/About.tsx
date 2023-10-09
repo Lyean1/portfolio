@@ -13,7 +13,7 @@ import UserProfileInfo from './UserProfileInfo/UserProfileInfo';
 import TimeLine from './TimeLine/TimeLine';
 
 const About: React.FC<{ data: Timelines }> = ({ data }) => {
-  const username = 'vinimrs';
+  const username = 'Lyean1';
   const API = 'https://api.github.com/users';
 
   const [userData, setUserData] = useState<UserGithubData>(null);
@@ -49,22 +49,22 @@ const About: React.FC<{ data: Timelines }> = ({ data }) => {
   return (
     <Section id="about">
       <SectionDivider />
-      <SectionTitle main>Sobre mim</SectionTitle>
+      <SectionTitle main>About Me</SectionTitle>
       {error.active && (
         <SectionText>
           {error.type === 404
-            ? 'Usuário não encontrado'
+            ? 'User Not Found'
             : error.type === 403
-            ? 'Limite de requisições atingido'
-            : 'Erro desconhecido'}
+            ? 'Request Limit Reached'
+            : 'Unknown Error'}
         </SectionText>
       )}
       {loading ? (
-        <SectionText>Carregando...</SectionText>
+        <SectionText>Loading...</SectionText>
       ) : (
         userData && <UserProfileInfo userData={userData} brief={data.brief} />
       )}
-      <SectionTitle2>Minha timeline</SectionTitle2>
+      <SectionTitle2>My Timeline</SectionTitle2>
       <TimeLine timelines={data.timelines} />
     </Section>
   );

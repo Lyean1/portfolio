@@ -19,10 +19,10 @@ const Technologies: React.FC<{ data: TechnologiesI }> = ({ data }) => {
   return (
     <Section id="tech">
       <SectionDivider divider />
-      <SectionTitle main>Tecnologias</SectionTitle>
+      <SectionTitle main>Technologies</SectionTitle>
       <SectionText>{data.brief}</SectionText>
       <List>
-        {data.tecnologies.map(item => (
+        {data.technologies.map(item => (
           <ListItem key={item.icon}>
             <TechnologyIcon name={item.icon} />
             <ListContainer id="gs_reveal">

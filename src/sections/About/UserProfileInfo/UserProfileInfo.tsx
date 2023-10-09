@@ -44,21 +44,6 @@ const UserProfileInfo: React.FC<{
       >
         <span>@{userData?.login}</span>
       </Username>
-      <SectionText id="gs_reveal">{brief}</SectionText>
-      <StatsContainer>
-        <Stat id="gs_reveal">
-          <StatNumber>{userData?.public_repos}</StatNumber>
-          <StatTitle>Repositórios públicos</StatTitle>
-        </Stat>
-        <Stat id="gs_reveal">
-          <StatNumber>{userData?.followers}</StatNumber>
-          <StatTitle>Seguidores</StatTitle>
-        </Stat>
-        <Stat id="gs_reveal">
-          <StatNumber>{userData?.following}</StatNumber>
-          <StatTitle>Seguindo</StatTitle>
-        </Stat>
-      </StatsContainer>
     </Container>
   );
 };

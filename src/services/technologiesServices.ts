@@ -10,7 +10,7 @@ export interface Technology {
 
 export interface TechnologiesI {
   brief: string;
-  tecnologies: Technology[];
+  technologies: Technology[];
 }
 
 export const technologiesServices = {

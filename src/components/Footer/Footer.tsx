@@ -15,7 +15,7 @@ const Footer: React.FC<{
     <S.FooterWrapper>
       <S.LinkList>
         <S.LinkColumn>
-          <S.LinkTitle>Telefone</S.LinkTitle>
+          <S.LinkTitle>Telephone</S.LinkTitle>
           <S.LinkItem href={`tel:${phone}`}>{phone}</S.LinkItem>
         </S.LinkColumn>
         <S.LinkColumn>

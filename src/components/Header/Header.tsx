@@ -20,23 +20,23 @@ const Header: React.FC<{
             alignItems: 'center',
           }}
         >
-          <DiNetbeans size="3rem" /> <span>VinPort</span>
+          <DiNetbeans size="3rem" /> <span>Lyean</span>
         </Link>
       </S.Div1>
       <S.Div2>
         <li>
           <ScrollTo itemName="projects">
-            <S.NavLink>Projetos</S.NavLink>
+            <S.NavLink>Projects</S.NavLink>
           </ScrollTo>
         </li>
         <li>
           <ScrollTo itemName="tech">
-            <S.NavLink>Tecnologias</S.NavLink>
+            <S.NavLink>Technologies</S.NavLink>
           </ScrollTo>
         </li>
         <li>
           <ScrollTo itemName="about">
-            <S.NavLink>Sobre</S.NavLink>
+            <S.NavLink>About</S.NavLink>
           </ScrollTo>
         </li>
       </S.Div2>

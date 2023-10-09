@@ -1,12 +1,11 @@
 site:
-  title: 'Portfólio - Vini'
-  description: 'Bem-Vindo(a) ao meu Portfólio'
+  title: "Lyean's Portfolio"
+  description: "Lyean's Web Developer Portfolio"
 personal:
-  welcome: 'Fala aí! Bem-Vindo(a) ao meu Portfólio'
-  brief: 'Me chamo Vinícius e aqui você irá encontrar meus projetos de software mais relevantes e um pouco sobre minha história!'
-  phone: '(082) 99127-8970'
-  email: 'viniciusromualdobusiness@gmail.com'
-  footerQuote: 'Inovando um projeto de cada vez'
+  welcome: 'Hey There, Welcome To My Portfolio'
+  brief: 'My name is Lyean and here you will find my most relevant software projects and a little about my history!'
+  phone: '09677633375'
+  email: 'lyean1500@gmail.com'
   socialNetworks:
-    github: 'https://github.com/vinimrs'
-    linkedin: 'https://www.linkedin.com/in/vinícius-romualdo-5a9555219/'
+    github: 'https://github.com/Lyean1'
+    linkedin: 'https://www.linkedin.com/in/say-lyean-10381827a/'

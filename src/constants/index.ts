@@ -56,13 +56,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: '2020', text: 'Comecei minha Jornada' },
-  { year: '2021/1', text: 'Comecei a me interessar pelo Front-End' },
-  { year: '2021/2', text: 'Entrei na graduação de Ciência da Computação' },
-  { year: '2021/2', text: 'Criei meu próprio site' },
-  { year: '2022/1', text: 'Aprimoramento de conhecimentos Front e BackEnd' },
-  {
-    year: '2022/2-now',
-    text: 'Participação em projetos de Iniciação Científica e pessoais',
-  },
+  { year: '2021', text: 'Start The Journey' },
+  { year: '2022', text: 'Work as a Freelance Web Developer' },
+  { year: '2023', text: 'Work as a Freelance Web Developer and Looking for Job to get more experience from Senior Developer' },
 ];
