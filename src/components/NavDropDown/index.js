@@ -14,7 +14,7 @@ const NavDropDown = (props) => (
         <DropDownItemDesc>Let's get together and have a chat?'</DropDownItemDesc>
       </DropDownTextContainer>
     </DropDownItem>
-    <DropDownItem href="mailto:contact@saylyean@gmail.com" target="_blank" rel="noreferrer">
+    <DropDownItem href="mailto:contact@lyean1500@gmail.com" target="_blank" rel="noreferrer">
       <DropDownIcon>
       <AiOutlineMail/>
       </DropDownIcon>

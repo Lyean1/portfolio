@@ -14,17 +14,17 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@saylyean@gmail.com">
-            contact@saylyean@gmail.com
+          <LinkItem href="mailto:contact@lyean1500@gmail.com">
+            lyean1500@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/SayLyean">
+          <SocialIcons href="https://github.com/Lyean1">
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/say-lyean-a6888a23a/">
+          <SocialIcons href="https://www.linkedin.com/in/say-lyean-10381827a/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </SocialContainer>
