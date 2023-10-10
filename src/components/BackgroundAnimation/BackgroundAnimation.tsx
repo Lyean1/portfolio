@@ -1,4 +1,4 @@
-import { ReactFCWithChildren } from '@types';
+import { ReactFCWithChildren } from '../../@types/index';
 import React from 'react';
 
 const BackgroundAnimation: ReactFCWithChildren = () => (
