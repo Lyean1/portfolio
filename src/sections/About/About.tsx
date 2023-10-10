@@ -64,6 +64,7 @@ const About: React.FC<{ data: Timelines }> = ({ data }) => {
       ) : (
         userData && <UserProfileInfo userData={userData} brief={data.brief} />
       )}
+      <text style={{ fontSize: "30px" }}>Hello! I'm a junior web developer with a passion for crafting engaging and user-friendly websites. I'm eager to contribute to dynamic web projects and learn from experienced developers. I thrive on problem-solving and staying up-to-date with the latest web development trends. Let's collaborate to create seamless online experiences!</text>
       <SectionTitle2>My Timeline</SectionTitle2>
       <TimeLine timelines={data.timelines} />
     </Section>

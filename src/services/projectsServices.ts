@@ -33,7 +33,7 @@ export const projectsServices = {
   getActiveProjects: async () => {
     const projects = await projectsServices.getAll();
     const currentProjects = projects.filter(
-      project => project.status !== 'Descontinuado'
+      project => project.status !== 'Discontinued'
     );
     return currentProjects;
   },
