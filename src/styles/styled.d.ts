@@ -1,4 +1,4 @@
-/* eslint @typescript-eslint/no-empty-interface: 'off' */
+
 
 import 'styled-components';
 
